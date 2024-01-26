@@ -1,0 +1,67 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* This will distribute space around the items */
+  align-items: center; /* Center content horizontally */
+  min-height: 180vh; /* Minimum height of viewport */
+  overflow-y: hidden;
+}
+
+/* Additional styling */
+.content {
+  padding: 20px;
+  border: 2px solid #333;
+  background-color: #fff;
+  text-align: center;
+  margin-bottom: 40px; /* Add some space at the bottom */
+  margin-top: 80px;
+}
+
+table {
+  width: 75%; /* Set the table width to 100% of its container */
+  text-align: center;
+  border: 5px solid #333; /* Specify the border style and color */
+  table-layout: auto;
+}
+
+tr,
+td {
+  border: 1px solid #333; /* Specify the border for table cells */
+  padding: 8px; /* Add padding to cells for better spacing */
+}
+
+.gray {
+  background-color: #777777;
+}
+
+.green {
+  background-color: #5d7059;
+}
+
+header {
+  background-color: #484848;
+  padding: 8px;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+
+body {
+  background-color: floralwhite;
+}
+
+footer {
+  background-color: #484848;
+  padding: 8px;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
